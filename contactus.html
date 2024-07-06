@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact us | Kala Bazaar</title>
+  <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #121212; /* Dark background color */
+      color: #f0f0f0; /* Light text color */
+    }
+    .navbar-light .navbar-nav .nav-link {
+      color: #000; /* Black text color for navbar links */
+    }
+    .navbar-light .navbar-brand {
+      color: #007bff; /* Adjusted brand color */
+    }
+    .navbar-light .navbar-toggler-icon {
+      filter: invert(1); /* Invert navbar toggler icon color */
+    }
+    .form-control {
+      background-color: #f0f0f0; /* Dark form control background */
+      border-color: #f0f0f0; /* Dark form control border color */
+      color: #f0f0f0; /* Light text color for form controls */
+    }
+    .form-control:focus {
+      background-color: #333; /* Dark form control background on focus */
+      border-color: #007bff; /* Form control border color on focus */
+      color: #f0f0f0; /* Light text color for form controls on focus */
+    }
+    .btn-primary {
+      background-color: #007bff; /* Primary button color */
+      border-color: #007bff; /* Primary button border color */
+    }
+    .btn-primary:hover {
+      background-color: #0056b3; /* Primary button color on hover */
+      border-color: #0056b3; /* Primary button border color on hover */
+    }
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212; /* Dark background color */
+        color: #f0f0f0; /* Light text color */
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="index.html" style="color: #007bff;">
+      <img src="image/logo.jpg" alt="Kala Bazaar" width="50" height="50">
+      Kala Bazaar
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactus.html">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container mt-5">
+  <h1 class="text-center mb-5">Contact Us</h1>
+  
+  <div class="row">
+    <div class="col-md-6 mx-auto">
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Your Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-md-6 mx-auto">
+      <h2>Our Location</h2>
+      <p>303 Rudram Apartment, Godhra, Gujarat, India</p>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
